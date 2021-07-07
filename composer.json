@@ -1,0 +1,17 @@
+{
+  "name": "swag-training/authors-cli",
+  "description": "Authors CLI",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\AuthorsCli\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\AuthorsCli\\SwagTrainingAuthorsCli",
+    "label": {
+      "en-GB": "Authors CLI"
+    }
+  }
+}
