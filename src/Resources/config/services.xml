@@ -6,6 +6,7 @@
             <tag name="console.command"/>
         </service>
 
+
         <service id="SwagTraining\AuthorsCli\Console\Command\CreateCommand">
             <argument type="service" id="author.repository"/>
             <tag name="console.command"/>
